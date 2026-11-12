@@ -1,0 +1,907 @@
+{
+  "environment": {
+    "python": "3.12.14",
+    "implementation": "CPython",
+    "system": "Windows",
+    "machine": "AMD64"
+  },
+  "seed": 20261028,
+  "full_width_check": {
+    "input_bits": 32,
+    "words": [
+      4176921142,
+      2654487654,
+      2398658022,
+      2959104326,
+      3111971791,
+      2506842098,
+      4026085961,
+      195126764,
+      2483549543,
+      2936376720,
+      911122515,
+      161471631,
+      2144269080,
+      2322255329,
+      609694255,
+      3529775830,
+      1128949848,
+      31034301,
+      1972993622,
+      4169784460,
+      1001585300,
+      2561717895,
+      3554548011,
+      929618432,
+      2512039878,
+      2819145288,
+      3336302672,
+      3160334846,
+      3329858377,
+      3946209122,
+      142649597,
+      2512875030,
+      3647835493,
+      5659321,
+      914317872,
+      1972264176,
+      1749203179,
+      1515442817,
+      2937900077,
+      2833877969,
+      876598109,
+      921762502,
+      1991958405,
+      370417849,
+      2617528716,
+      4063416804,
+      3830457591,
+      3599540041,
+      3977499883,
+      901924526,
+      3543537469,
+      162311989,
+      2927314689,
+      358413601,
+      842403165,
+      2094596833,
+      243240900,
+      2810402375,
+      3983781079,
+      2307166510,
+      1489127086,
+      669128204,
+      668647972,
+      3238294937
+    ],
+    "rounds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "recovered": 1024
+  },
+  "paired_benchmark": {
+    "input_bits": 12,
+    "trials_per_round": 24,
+    "summary": [
+      {
+        "rounds": 1,
+        "direct_median_us": 8.3,
+        "enumeration_median_ms": 4.83,
+        "enumerated_candidates_median": 1729.5
+      },
+      {
+        "rounds": 4,
+        "direct_median_us": 16.6,
+        "enumeration_median_ms": 10.53,
+        "enumerated_candidates_median": 1729.5
+      },
+      {
+        "rounds": 8,
+        "direct_median_us": 25.85,
+        "enumeration_median_ms": 18.12,
+        "enumerated_candidates_median": 1729.5
+      },
+      {
+        "rounds": 16,
+        "direct_median_us": 46.7,
+        "enumeration_median_ms": 33.57,
+        "enumerated_candidates_median": 1729.5
+      }
+    ],
+    "runs": [
+      {
+        "rounds": 1,
+        "trial": 1,
+        "word": 372,
+        "direct_ns": 11600,
+        "enumeration_ns": 1122700,
+        "enumerated_candidates": 373
+      },
+      {
+        "rounds": 1,
+        "trial": 2,
+        "word": 1737,
+        "direct_ns": 10000,
+        "enumeration_ns": 5071900,
+        "enumerated_candidates": 1738
+      },
+      {
+        "rounds": 1,
+        "trial": 3,
+        "word": 307,
+        "direct_ns": 8300,
+        "enumeration_ns": 868400,
+        "enumerated_candidates": 308
+      },
+      {
+        "rounds": 1,
+        "trial": 4,
+        "word": 4089,
+        "direct_ns": 9700,
+        "enumeration_ns": 11979600,
+        "enumerated_candidates": 4090
+      },
+      {
+        "rounds": 1,
+        "trial": 5,
+        "word": 1162,
+        "direct_ns": 8100,
+        "enumeration_ns": 3273600,
+        "enumerated_candidates": 1163
+      },
+      {
+        "rounds": 1,
+        "trial": 6,
+        "word": 2153,
+        "direct_ns": 8300,
+        "enumeration_ns": 5961900,
+        "enumerated_candidates": 2154
+      },
+      {
+        "rounds": 1,
+        "trial": 7,
+        "word": 59,
+        "direct_ns": 7700,
+        "enumeration_ns": 164600,
+        "enumerated_candidates": 60
+      },
+      {
+        "rounds": 1,
+        "trial": 8,
+        "word": 3763,
+        "direct_ns": 7800,
+        "enumeration_ns": 10299400,
+        "enumerated_candidates": 3764
+      },
+      {
+        "rounds": 1,
+        "trial": 9,
+        "word": 1910,
+        "direct_ns": 6800,
+        "enumeration_ns": 5336300,
+        "enumerated_candidates": 1911
+      },
+      {
+        "rounds": 1,
+        "trial": 10,
+        "word": 1773,
+        "direct_ns": 10400,
+        "enumeration_ns": 4910900,
+        "enumerated_candidates": 1774
+      },
+      {
+        "rounds": 1,
+        "trial": 11,
+        "word": 272,
+        "direct_ns": 9800,
+        "enumeration_ns": 750500,
+        "enumerated_candidates": 273
+      },
+      {
+        "rounds": 1,
+        "trial": 12,
+        "word": 10,
+        "direct_ns": 7700,
+        "enumeration_ns": 34100,
+        "enumerated_candidates": 11
+      },
+      {
+        "rounds": 1,
+        "trial": 13,
+        "word": 1743,
+        "direct_ns": 7100,
+        "enumeration_ns": 4891800,
+        "enumerated_candidates": 1744
+      },
+      {
+        "rounds": 1,
+        "trial": 14,
+        "word": 3761,
+        "direct_ns": 8300,
+        "enumeration_ns": 10423900,
+        "enumerated_candidates": 3762
+      },
+      {
+        "rounds": 1,
+        "trial": 15,
+        "word": 3336,
+        "direct_ns": 7200,
+        "enumeration_ns": 9459700,
+        "enumerated_candidates": 3337
+      },
+      {
+        "rounds": 1,
+        "trial": 16,
+        "word": 2890,
+        "direct_ns": 10400,
+        "enumeration_ns": 8000000,
+        "enumerated_candidates": 2891
+      },
+      {
+        "rounds": 1,
+        "trial": 17,
+        "word": 1671,
+        "direct_ns": 7700,
+        "enumeration_ns": 4687200,
+        "enumerated_candidates": 1672
+      },
+      {
+        "rounds": 1,
+        "trial": 18,
+        "word": 1758,
+        "direct_ns": 9500,
+        "enumeration_ns": 5016600,
+        "enumerated_candidates": 1759
+      },
+      {
+        "rounds": 1,
+        "trial": 19,
+        "word": 3799,
+        "direct_ns": 7500,
+        "enumeration_ns": 10564600,
+        "enumerated_candidates": 3800
+      },
+      {
+        "rounds": 1,
+        "trial": 20,
+        "word": 706,
+        "direct_ns": 11600,
+        "enumeration_ns": 2121100,
+        "enumerated_candidates": 707
+      },
+      {
+        "rounds": 1,
+        "trial": 21,
+        "word": 1720,
+        "direct_ns": 8000,
+        "enumeration_ns": 4762100,
+        "enumerated_candidates": 1721
+      },
+      {
+        "rounds": 1,
+        "trial": 22,
+        "word": 309,
+        "direct_ns": 8400,
+        "enumeration_ns": 859300,
+        "enumerated_candidates": 310
+      },
+      {
+        "rounds": 1,
+        "trial": 23,
+        "word": 683,
+        "direct_ns": 7100,
+        "enumeration_ns": 1903400,
+        "enumerated_candidates": 684
+      },
+      {
+        "rounds": 1,
+        "trial": 24,
+        "word": 1606,
+        "direct_ns": 9300,
+        "enumeration_ns": 4464300,
+        "enumerated_candidates": 1607
+      },
+      {
+        "rounds": 4,
+        "trial": 1,
+        "word": 372,
+        "direct_ns": 16900,
+        "enumeration_ns": 2258000,
+        "enumerated_candidates": 373
+      },
+      {
+        "rounds": 4,
+        "trial": 2,
+        "word": 1737,
+        "direct_ns": 17000,
+        "enumeration_ns": 10616500,
+        "enumerated_candidates": 1738
+      },
+      {
+        "rounds": 4,
+        "trial": 3,
+        "word": 307,
+        "direct_ns": 15500,
+        "enumeration_ns": 1878200,
+        "enumerated_candidates": 308
+      },
+      {
+        "rounds": 4,
+        "trial": 4,
+        "word": 4089,
+        "direct_ns": 18800,
+        "enumeration_ns": 25514100,
+        "enumerated_candidates": 4090
+      },
+      {
+        "rounds": 4,
+        "trial": 5,
+        "word": 1162,
+        "direct_ns": 15700,
+        "enumeration_ns": 7152600,
+        "enumerated_candidates": 1163
+      },
+      {
+        "rounds": 4,
+        "trial": 6,
+        "word": 2153,
+        "direct_ns": 19800,
+        "enumeration_ns": 13433300,
+        "enumerated_candidates": 2154
+      },
+      {
+        "rounds": 4,
+        "trial": 7,
+        "word": 59,
+        "direct_ns": 18500,
+        "enumeration_ns": 372200,
+        "enumerated_candidates": 60
+      },
+      {
+        "rounds": 4,
+        "trial": 8,
+        "word": 3763,
+        "direct_ns": 20100,
+        "enumeration_ns": 23729800,
+        "enumerated_candidates": 3764
+      },
+      {
+        "rounds": 4,
+        "trial": 9,
+        "word": 1910,
+        "direct_ns": 15800,
+        "enumeration_ns": 12053700,
+        "enumerated_candidates": 1911
+      },
+      {
+        "rounds": 4,
+        "trial": 10,
+        "word": 1773,
+        "direct_ns": 17500,
+        "enumeration_ns": 10936600,
+        "enumerated_candidates": 1774
+      },
+      {
+        "rounds": 4,
+        "trial": 11,
+        "word": 272,
+        "direct_ns": 14800,
+        "enumeration_ns": 1662400,
+        "enumerated_candidates": 273
+      },
+      {
+        "rounds": 4,
+        "trial": 12,
+        "word": 10,
+        "direct_ns": 15800,
+        "enumeration_ns": 67600,
+        "enumerated_candidates": 11
+      },
+      {
+        "rounds": 4,
+        "trial": 13,
+        "word": 1743,
+        "direct_ns": 15000,
+        "enumeration_ns": 10844200,
+        "enumerated_candidates": 1744
+      },
+      {
+        "rounds": 4,
+        "trial": 14,
+        "word": 3761,
+        "direct_ns": 24800,
+        "enumeration_ns": 23219600,
+        "enumerated_candidates": 3762
+      },
+      {
+        "rounds": 4,
+        "trial": 15,
+        "word": 3336,
+        "direct_ns": 16800,
+        "enumeration_ns": 20627600,
+        "enumerated_candidates": 3337
+      },
+      {
+        "rounds": 4,
+        "trial": 16,
+        "word": 2890,
+        "direct_ns": 16900,
+        "enumeration_ns": 17601900,
+        "enumerated_candidates": 2891
+      },
+      {
+        "rounds": 4,
+        "trial": 17,
+        "word": 1671,
+        "direct_ns": 14900,
+        "enumeration_ns": 10276300,
+        "enumerated_candidates": 1672
+      },
+      {
+        "rounds": 4,
+        "trial": 18,
+        "word": 1758,
+        "direct_ns": 16400,
+        "enumeration_ns": 10728100,
+        "enumerated_candidates": 1759
+      },
+      {
+        "rounds": 4,
+        "trial": 19,
+        "word": 3799,
+        "direct_ns": 15200,
+        "enumeration_ns": 23170100,
+        "enumerated_candidates": 3800
+      },
+      {
+        "rounds": 4,
+        "trial": 20,
+        "word": 706,
+        "direct_ns": 18800,
+        "enumeration_ns": 4312500,
+        "enumerated_candidates": 707
+      },
+      {
+        "rounds": 4,
+        "trial": 21,
+        "word": 1720,
+        "direct_ns": 15200,
+        "enumeration_ns": 10449500,
+        "enumerated_candidates": 1721
+      },
+      {
+        "rounds": 4,
+        "trial": 22,
+        "word": 309,
+        "direct_ns": 16100,
+        "enumeration_ns": 1879700,
+        "enumerated_candidates": 310
+      },
+      {
+        "rounds": 4,
+        "trial": 23,
+        "word": 683,
+        "direct_ns": 14700,
+        "enumeration_ns": 4156900,
+        "enumerated_candidates": 684
+      },
+      {
+        "rounds": 4,
+        "trial": 24,
+        "word": 1606,
+        "direct_ns": 16900,
+        "enumeration_ns": 9838000,
+        "enumerated_candidates": 1607
+      },
+      {
+        "rounds": 8,
+        "trial": 1,
+        "word": 372,
+        "direct_ns": 25200,
+        "enumeration_ns": 4011300,
+        "enumerated_candidates": 373
+      },
+      {
+        "rounds": 8,
+        "trial": 2,
+        "word": 1737,
+        "direct_ns": 26600,
+        "enumeration_ns": 18553800,
+        "enumerated_candidates": 1738
+      },
+      {
+        "rounds": 8,
+        "trial": 3,
+        "word": 307,
+        "direct_ns": 25300,
+        "enumeration_ns": 3230700,
+        "enumerated_candidates": 308
+      },
+      {
+        "rounds": 8,
+        "trial": 4,
+        "word": 4089,
+        "direct_ns": 26700,
+        "enumeration_ns": 42882600,
+        "enumerated_candidates": 4090
+      },
+      {
+        "rounds": 8,
+        "trial": 5,
+        "word": 1162,
+        "direct_ns": 25100,
+        "enumeration_ns": 12287300,
+        "enumerated_candidates": 1163
+      },
+      {
+        "rounds": 8,
+        "trial": 6,
+        "word": 2153,
+        "direct_ns": 31100,
+        "enumeration_ns": 22836800,
+        "enumerated_candidates": 2154
+      },
+      {
+        "rounds": 8,
+        "trial": 7,
+        "word": 59,
+        "direct_ns": 25900,
+        "enumeration_ns": 668600,
+        "enumerated_candidates": 60
+      },
+      {
+        "rounds": 8,
+        "trial": 8,
+        "word": 3763,
+        "direct_ns": 31700,
+        "enumeration_ns": 40477900,
+        "enumerated_candidates": 3764
+      },
+      {
+        "rounds": 8,
+        "trial": 9,
+        "word": 1910,
+        "direct_ns": 25700,
+        "enumeration_ns": 20246300,
+        "enumerated_candidates": 1911
+      },
+      {
+        "rounds": 8,
+        "trial": 10,
+        "word": 1773,
+        "direct_ns": 28000,
+        "enumeration_ns": 18670600,
+        "enumerated_candidates": 1774
+      },
+      {
+        "rounds": 8,
+        "trial": 11,
+        "word": 272,
+        "direct_ns": 25800,
+        "enumeration_ns": 2871000,
+        "enumerated_candidates": 273
+      },
+      {
+        "rounds": 8,
+        "trial": 12,
+        "word": 10,
+        "direct_ns": 25800,
+        "enumeration_ns": 116600,
+        "enumerated_candidates": 11
+      },
+      {
+        "rounds": 8,
+        "trial": 13,
+        "word": 1743,
+        "direct_ns": 24800,
+        "enumeration_ns": 18287800,
+        "enumerated_candidates": 1744
+      },
+      {
+        "rounds": 8,
+        "trial": 14,
+        "word": 3761,
+        "direct_ns": 26400,
+        "enumeration_ns": 39311600,
+        "enumerated_candidates": 3762
+      },
+      {
+        "rounds": 8,
+        "trial": 15,
+        "word": 3336,
+        "direct_ns": 24900,
+        "enumeration_ns": 34925300,
+        "enumerated_candidates": 3337
+      },
+      {
+        "rounds": 8,
+        "trial": 16,
+        "word": 2890,
+        "direct_ns": 30900,
+        "enumeration_ns": 31420500,
+        "enumerated_candidates": 2891
+      },
+      {
+        "rounds": 8,
+        "trial": 17,
+        "word": 1671,
+        "direct_ns": 26000,
+        "enumeration_ns": 17696900,
+        "enumerated_candidates": 1672
+      },
+      {
+        "rounds": 8,
+        "trial": 18,
+        "word": 1758,
+        "direct_ns": 29600,
+        "enumeration_ns": 18460500,
+        "enumerated_candidates": 1759
+      },
+      {
+        "rounds": 8,
+        "trial": 19,
+        "word": 3799,
+        "direct_ns": 25900,
+        "enumeration_ns": 40257300,
+        "enumerated_candidates": 3800
+      },
+      {
+        "rounds": 8,
+        "trial": 20,
+        "word": 706,
+        "direct_ns": 27200,
+        "enumeration_ns": 7383900,
+        "enumerated_candidates": 707
+      },
+      {
+        "rounds": 8,
+        "trial": 21,
+        "word": 1720,
+        "direct_ns": 24900,
+        "enumeration_ns": 17950100,
+        "enumerated_candidates": 1721
+      },
+      {
+        "rounds": 8,
+        "trial": 22,
+        "word": 309,
+        "direct_ns": 25100,
+        "enumeration_ns": 3231600,
+        "enumerated_candidates": 310
+      },
+      {
+        "rounds": 8,
+        "trial": 23,
+        "word": 683,
+        "direct_ns": 24300,
+        "enumeration_ns": 7163500,
+        "enumerated_candidates": 684
+      },
+      {
+        "rounds": 8,
+        "trial": 24,
+        "word": 1606,
+        "direct_ns": 25200,
+        "enumeration_ns": 16838200,
+        "enumerated_candidates": 1607
+      },
+      {
+        "rounds": 16,
+        "trial": 1,
+        "word": 372,
+        "direct_ns": 44700,
+        "enumeration_ns": 7125500,
+        "enumerated_candidates": 373
+      },
+      {
+        "rounds": 16,
+        "trial": 2,
+        "word": 1737,
+        "direct_ns": 57900,
+        "enumeration_ns": 34129400,
+        "enumerated_candidates": 1738
+      },
+      {
+        "rounds": 16,
+        "trial": 3,
+        "word": 307,
+        "direct_ns": 45400,
+        "enumeration_ns": 6064000,
+        "enumerated_candidates": 308
+      },
+      {
+        "rounds": 16,
+        "trial": 4,
+        "word": 4089,
+        "direct_ns": 50800,
+        "enumeration_ns": 79923400,
+        "enumerated_candidates": 4090
+      },
+      {
+        "rounds": 16,
+        "trial": 5,
+        "word": 1162,
+        "direct_ns": 46500,
+        "enumeration_ns": 22876600,
+        "enumerated_candidates": 1163
+      },
+      {
+        "rounds": 16,
+        "trial": 6,
+        "word": 2153,
+        "direct_ns": 53000,
+        "enumeration_ns": 42669900,
+        "enumerated_candidates": 2154
+      },
+      {
+        "rounds": 16,
+        "trial": 7,
+        "word": 59,
+        "direct_ns": 46900,
+        "enumeration_ns": 1202000,
+        "enumerated_candidates": 60
+      },
+      {
+        "rounds": 16,
+        "trial": 8,
+        "word": 3763,
+        "direct_ns": 49700,
+        "enumeration_ns": 73720700,
+        "enumerated_candidates": 3764
+      },
+      {
+        "rounds": 16,
+        "trial": 9,
+        "word": 1910,
+        "direct_ns": 45700,
+        "enumeration_ns": 37135600,
+        "enumerated_candidates": 1911
+      },
+      {
+        "rounds": 16,
+        "trial": 10,
+        "word": 1773,
+        "direct_ns": 49400,
+        "enumeration_ns": 34313800,
+        "enumerated_candidates": 1774
+      },
+      {
+        "rounds": 16,
+        "trial": 11,
+        "word": 272,
+        "direct_ns": 45700,
+        "enumeration_ns": 5288000,
+        "enumerated_candidates": 273
+      },
+      {
+        "rounds": 16,
+        "trial": 12,
+        "word": 10,
+        "direct_ns": 54100,
+        "enumeration_ns": 355700,
+        "enumerated_candidates": 11
+      },
+      {
+        "rounds": 16,
+        "trial": 13,
+        "word": 1743,
+        "direct_ns": 50100,
+        "enumeration_ns": 34153100,
+        "enumerated_candidates": 1744
+      },
+      {
+        "rounds": 16,
+        "trial": 14,
+        "word": 3761,
+        "direct_ns": 50300,
+        "enumeration_ns": 72329400,
+        "enumerated_candidates": 3762
+      },
+      {
+        "rounds": 16,
+        "trial": 15,
+        "word": 3336,
+        "direct_ns": 45600,
+        "enumeration_ns": 64537500,
+        "enumerated_candidates": 3337
+      },
+      {
+        "rounds": 16,
+        "trial": 16,
+        "word": 2890,
+        "direct_ns": 49300,
+        "enumeration_ns": 55718200,
+        "enumerated_candidates": 2891
+      },
+      {
+        "rounds": 16,
+        "trial": 17,
+        "word": 1671,
+        "direct_ns": 45500,
+        "enumeration_ns": 32461300,
+        "enumerated_candidates": 1672
+      },
+      {
+        "rounds": 16,
+        "trial": 18,
+        "word": 1758,
+        "direct_ns": 48700,
+        "enumeration_ns": 33944700,
+        "enumerated_candidates": 1759
+      },
+      {
+        "rounds": 16,
+        "trial": 19,
+        "word": 3799,
+        "direct_ns": 45800,
+        "enumeration_ns": 73435500,
+        "enumerated_candidates": 3800
+      },
+      {
+        "rounds": 16,
+        "trial": 20,
+        "word": 706,
+        "direct_ns": 47100,
+        "enumeration_ns": 13536900,
+        "enumerated_candidates": 707
+      },
+      {
+        "rounds": 16,
+        "trial": 21,
+        "word": 1720,
+        "direct_ns": 44700,
+        "enumeration_ns": 33194400,
+        "enumerated_candidates": 1721
+      },
+      {
+        "rounds": 16,
+        "trial": 22,
+        "word": 309,
+        "direct_ns": 45800,
+        "enumeration_ns": 5937700,
+        "enumerated_candidates": 310
+      },
+      {
+        "rounds": 16,
+        "trial": 23,
+        "word": 683,
+        "direct_ns": 43900,
+        "enumeration_ns": 13118700,
+        "enumerated_candidates": 684
+      },
+      {
+        "rounds": 16,
+        "trial": 24,
+        "word": 1606,
+        "direct_ns": 44800,
+        "enumeration_ns": 30901300,
+        "enumerated_candidates": 1607
+      }
+    ]
+  },
+  "schedule_boundary": {
+    "words_compared": [
+      0,
+      1
+    ],
+    "w16": [
+      2852480842,
+      2852480843
+    ]
+  }
+}
